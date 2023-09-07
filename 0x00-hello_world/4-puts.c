@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /*
- * main: function has int return type and no arguments
+ * main function has int return type
+ *
+ * Return: always void or 0
  *
  * This is a c program that demonstrates how to print a string.
  *
