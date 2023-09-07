@@ -5,7 +5,7 @@
  *
  * The command used was puts insted of printf
  *
- * The main function, which is the entry point of the code is given below
+ * main - the main function, which is the entry point of the code is given below
  */
 
 int main(void)
