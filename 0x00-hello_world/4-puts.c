@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
- * main - the main funtion is given below
+ * main function has int return type and no arguments
  *
  * This is a c program that demonstrates how to print a string.
  *
