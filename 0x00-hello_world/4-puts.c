@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 /**
- * main this is the main function
+ * main - this program shows the main function with int return type.
  *
- * Return: 0
+ * Return: the return has no arguments, 0
  *
+ * The comand used was puts insted of printf.
  */
 
 int main(void)
