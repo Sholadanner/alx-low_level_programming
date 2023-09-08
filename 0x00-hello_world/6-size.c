@@ -3,7 +3,7 @@
 /**
  * main - this program shows the main function with int return type
  *
- * Reaturn: the return has no aruments, 0
+ * Return: the return has no aruments, 0
  *
  * The program aims to display the size of differnt types 
  *
@@ -11,11 +11,11 @@
 
 int main(void)
 {
-	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(char));
-	printf("size of an int: %lu byte(s)\n", (unsigned long)sizeof(int));
-	printf("size of a long int: %lu byte(s)\n", (unsigned long)sizeof(long int));
-	printf("size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(long long));
-	printf("size of a float: %lu byte(s)\n", (unsigned long)sizeof(float));
-	return(0);
+	printf("Size of a char: %lu byte(s)\n", sizeof(char));
+	printf("Size of an int: %lu byte(s)\n", sizeof(int));
+	printf("Size of a long int: %lu byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %lu byte(s)\n", sizeof(long long));
+	printf("Size of a float: %lu byte(s)\n", sizeof(float));
+	return (0);
 }
 
