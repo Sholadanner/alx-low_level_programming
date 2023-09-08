@@ -5,8 +5,7 @@
  *
  * Return: the return has no aruments, 0
  *
- * The program aims to display the size of differnt types 
- *
+ * This program aims to display the sizes of types
  */
 
 int main(void)
