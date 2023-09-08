@@ -1,4 +1,3 @@
-#include <stdin.h>
 #include <unistd.h>
 /**
  * main - this program shows the function with int return type
@@ -9,6 +8,6 @@
  */
 int main(void)
 {
-	putc("and that piece of art is useful\" \- Dora Korpar, 2015-10-19\n", stdout);
+	fput("and that piece of art is useful\" \- Dora Korpar, 2015-10-19\n", stdout);
 	return (1);
 }
