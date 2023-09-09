@@ -13,11 +13,11 @@ int main(void)
 	int ds;
 	char od;
 
-	for (ds = 0; ds <= 10; ds++)
+	for (ds = 0; ds <= 9; ds++)
 	{
-		putchar ('0' + ds);
+		putchar (ds + '0');
 	}
-       	for (od = 'a'; od <= 'f'; od++)
+	for (od = 'a'; od <= 'f'; od++)
 	{
 		putchar (od);
 	}
