@@ -16,7 +16,8 @@ int main(void)
 	for (ds = 0; ds <= 10; ds++)
 	{
 		putchar ('0' + ds);
-	} for (od = 'a'; od <= 'f'; od++)
+	}
+       	for (od = 'a'; od <= 'f'; od++)
 	{
 		putchar (od);
 	}
