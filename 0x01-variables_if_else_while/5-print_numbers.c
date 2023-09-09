@@ -18,3 +18,4 @@ int main(void)
 		printf ("%d\n", u);
 	}
 	return (0);
+}
