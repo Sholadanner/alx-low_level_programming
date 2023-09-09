@@ -13,10 +13,10 @@ int main(void)
 {
 	char dd;
 
-	for (dd == 'a'; dd <= 'z'; dd++)
+	for (dd = 'a'; dd <= 'z'; dd++)
 	{
 		putchar(dd);
-	} for (dd == 'A'; dd <= 'Z'; dd++)
+	} for (dd = 'A'; dd <= 'Z'; dd++)
 	{
 		putchar(dd);
 	}
