@@ -9,10 +9,10 @@
  */
 char main(void)
 {
-	char "sh";
+	char sh;
 	for (sh = 'a'; sh <= 'z'; sh++)
 	{
-		putchar ("sh");
-	} putchar ("\n");
+		putchar (sh);
+	} putchar ('\n');
 	return (0);
 }
