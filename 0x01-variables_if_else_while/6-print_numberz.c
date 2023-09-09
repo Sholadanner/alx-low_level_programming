@@ -11,7 +11,7 @@
 int main(void)
 {
 	int du;
-	
+
 	for (du = 0; du <= 9; du++)
 	{
 		putchar ('0' + du);
