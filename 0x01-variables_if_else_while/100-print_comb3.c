@@ -16,15 +16,12 @@ int main(void)
 
 	for (u = 0; u <= 9; u++)
 	{
-		putchar (u + '0');
 		for (t = 0; t <= 9; t++)
 		{
+			putchar (u + '0');
 			putchar (t + '0');
-			if (u < 9 && t < 9)
-			{
-				putchar (' ');
-				putchar (',');
-			}
+			putchar (' ');
+			putchar (',');
 		}
 	}
 	putchar ('\n');
