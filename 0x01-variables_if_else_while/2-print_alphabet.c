@@ -7,7 +7,7 @@
  *
  * The program aims to print out all the alphabet in lowercase
  */
-char main(void)
+int main(void)
 {
 	char sh;
 	for (sh = 'a'; sh <= 'z'; sh++)
