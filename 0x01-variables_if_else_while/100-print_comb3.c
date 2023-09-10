@@ -14,14 +14,22 @@ int main(void)
 	int u;
 	int t;
 
-	for (u = 0; u <= 9; u++)
+	for (u = 0; u < 9; u++)
 	{
-		for (t = 0; t <= 9; t++)
+		for (t = u + 1; t <= 9; t++)
 		{
-			putchar (u + '0');
-			putchar (t + '0');
-			putchar (' ');
-			putchar (',');
+			if (u != t)
+			{
+				putchar ('0' + u);
+				putchar ('0' + t);
+
+				if (u == 8 && t == 9)
+					continue;
+					{
+					putchar (',');
+					putchar (' ');
+					}
+			}
 		}
 	}
 	putchar ('\n');
