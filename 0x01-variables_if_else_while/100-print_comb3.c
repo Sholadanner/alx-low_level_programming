@@ -25,12 +25,12 @@ int main(void)
 				putchar ('0' + u);
 				putchar ('0' + t);
 
-				if (u == 8 && t == 9)
-					continue;
-					{
+				if (u == '8' && t == '9')
+				continue;
+				{
 					putchar (',');
 					putchar (' ');
-					}
+				}
 			}
 		}
 	}
