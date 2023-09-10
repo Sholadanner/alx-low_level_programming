@@ -27,10 +27,10 @@ int main(void)
 
 				if (u == 8 && t == 9)
 				continue;
-				
+				{
 					putchar (',');
 					putchar (' ');
-				
+				}
 			}
 		}
 	}
