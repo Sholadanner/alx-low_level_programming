@@ -5,7 +5,7 @@
 /**
  * main - the main function for this code is of type int
  *
- * The aim of the code is to print out combinations for 
+ * The aim of the code is to print out combinations for
  * three digit numbers
  *
  * Return: the return argument for this code is void, 0
