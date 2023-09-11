@@ -6,7 +6,7 @@
  * main - the main function for this code is of type int
  *
  *
- * This code aims to print all the possible combinations of 
+ * This code aims to print all the possible combinations of
  * two two digit numbers
  *
  * Return: the return argument is void, 0
