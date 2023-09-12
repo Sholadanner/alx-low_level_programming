@@ -8,7 +8,7 @@
  * This code aims to print the alphabet
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	int a;
 
@@ -17,5 +17,4 @@ int main(void)
 		_putchar (a);
 	}
 	_putchar ('\n');
-	return (0);
 }
