@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - the main function has an int return type
@@ -10,7 +10,13 @@
 
 int main(void)
 {
+	char s[] = "_putchar";
+	int i;
 
-	printf ("_putchar\n");
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		_putchar (s[i]);
+	}
+	_putchar ('\n');
 	return (0);
 }
