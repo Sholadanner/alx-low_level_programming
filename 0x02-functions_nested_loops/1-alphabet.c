@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - data type for this function is void 
+ * print_alphabet - data type for this function is void
  *
  * Return: the return value is void
  *
