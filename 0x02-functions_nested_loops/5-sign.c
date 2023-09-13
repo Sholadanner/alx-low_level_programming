@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _sign - this function is of type int
+ * print _sign - this function is of type int
  *
  * Return: the return value will be either 0, 1, or -1
  *
@@ -12,7 +12,7 @@ int print_sign(int n)
 {
 	if (n > 0)
 	{
-		_putchar ( '+' );
+		_putchar ('+');
 		return (1);
 	}
 	else if (n == 0)
