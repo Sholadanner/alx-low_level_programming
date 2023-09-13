@@ -12,9 +12,8 @@ int _abs(int c)
 {
 	if (c < 0)
 	{
-		int _abs;
-		abs_val = c * -1;
-		return (abs_val);
+		return (-c);
 	}
-	return (c);
+	else
+		return (c);
 }
