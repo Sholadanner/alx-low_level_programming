@@ -1,4 +1,9 @@
 #include "main.h"
+/**
+ * times_table - return type is void
+ *
+ * Return: return value is void
+ */
 
 void times_table(void)
 {
