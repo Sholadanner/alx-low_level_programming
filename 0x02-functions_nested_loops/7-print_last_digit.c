@@ -1,5 +1,13 @@
 #include "main.h"
 
+/**
+ * print_last_digit - type int
+ *
+ * Return: b
+ *
+ * @a: function parameter
+ */
+
 int print_last_digit(int a)
 {
 	int b;
