@@ -3,7 +3,7 @@
 /**
  *_islower - the function is of type int
  *
- *Return: the return value is c
+ *Return: the return value is 0 or 1
  *
  */
 
