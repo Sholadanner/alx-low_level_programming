@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main - int return type
+ *
+ * Return: 0 if succesfull
+ */
 
 int main(void)
 {
