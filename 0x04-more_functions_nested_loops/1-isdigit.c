@@ -8,15 +8,10 @@
 
 int _isdigit(int c)
 {
-	for (c = 0; c <= 9; c++)
+	if (c = 48 && c = 57)
 	{
-		if (c = 'a' && c = 'z')
-		{
-			return (0);
-		}
+		return (1);
 		else
-		{
-			return (1);
-		}
+			return (0);
 	}
 }
