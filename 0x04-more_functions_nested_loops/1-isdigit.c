@@ -1,4 +1,4 @@
-#include "main.j"
+#include "main.h"
 
 /**
  * _isdigit - has an int return type
