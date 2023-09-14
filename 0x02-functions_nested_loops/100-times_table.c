@@ -1,5 +1,13 @@
 #include "main.h"
 
+/**
+ * print_times_table - return type is void
+ *
+ * Return: always 0
+ *
+ * @n: the value to be printed
+ */
+
 void print_times_table(int n)
 {
 	int num, m, p;
