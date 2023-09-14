@@ -1,5 +1,9 @@
 #include "main.h"
 
+/**
+ * more_numbers - has a void data type
+ */
+
 void more_numbers(void)
 {
 	int i;
