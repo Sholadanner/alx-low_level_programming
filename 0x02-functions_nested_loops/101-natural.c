@@ -9,8 +9,8 @@ int main(void)
 {
 	int a;
 	int b = 0;
-	
-	while (a < 1020)
+
+	while (a < 1024)
 	{
 		if ((a % 3 == 0) || (a % 5 == 0))
 		{
