@@ -3,6 +3,8 @@
 /**
  * _isdigit - has an int return type
  *
+ * @c: value of character
+ *
  * Return: the return value is to be calculated
  */
 
