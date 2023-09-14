@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * main - return type is an int
+ *
+ * Return: 0 if successfull
+ */
+
 int main(void)
 {
 	int x = 0;
