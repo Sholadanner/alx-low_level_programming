@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * print_diagonal - void return type
+ *
+ * @n: the nummber of times \ should be repeated
+ */
+
 void print_diagonal(int n)
 {
 	int i;
