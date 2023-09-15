@@ -14,13 +14,13 @@ int main(void)
 	long number = 612852475143;
 	double square = sqrt(number);
 
-	for (i = 0; i <= square; i++)
+	for (i = 1; i <= square; i++)
 	{
 		if (number % i == 0)
 		{
 			maxf = number / i;
 		}
 	}
-	printf("%ld", maxf);
+	printf("%ld\n", maxf);
 	return (0);
 }
