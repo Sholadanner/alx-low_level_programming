@@ -2,7 +2,7 @@
 #include <math.h>
 
 /**
- * main - the aim of the code is to determint the 
+ * main - the aim of the code is to determint the
  * largest prime factor of a number
  *
  * Return: the return value will be 0 if succeffull
