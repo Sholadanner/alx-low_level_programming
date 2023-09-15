@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <maths.h>
+#include <math.h>
 
 /**
  * main - the aim of the code is to determint the 
@@ -16,7 +16,7 @@ int main(void)
 
 	for (i = 0; i <= square; i++)
 	{
-		if (number % i == 0);
+		if (number % i == 0)
 		{
 			maxf = number / i;
 		}
