@@ -9,7 +9,7 @@
  * @s: string to print
  */
 
-void print_rev(char *s);
+void print_rev(char *s)
 {
 	int c = 0;
 	
