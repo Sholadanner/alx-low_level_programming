@@ -5,7 +5,7 @@
  *
  * Return: c
  *
- * @s - string to be counted
+ * @s: string to be counted
  */
 
 int _strlen(char *s)
