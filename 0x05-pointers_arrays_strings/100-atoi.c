@@ -27,9 +27,7 @@ int _atoi(char *s)
 		c++;
 	}
 	if (l == 1)
-	{
 		break;
-	}
 	c++;
 	n1 *= min;
 	return (n1);
