@@ -16,13 +16,13 @@ int main(void)
 	srand(time(0));
 	while (s < 2772)
 	{
-		p[i] = 33 = rand() % 94;
+		p[i] = 33 + rand() % 94;
 		s =+ p[i++];
 	}
 	p[i] = '\0';
 	if (s != 2772)
 	{
-		di = (s - 2772) / 2;
+		d1 = (s - 2772) / 2;
 		d2 = (s - 2772) / 2;
 		if ((s - 2772) % 2 != 0)
 			d1++;
@@ -36,7 +36,7 @@ int main(void)
 		}
 		for (i = 0; p[i]; i++)
 		{
-			if (p[i]; >= (33 + d2))
+			if (p[i] >= (33 + d2))
 				p[i] -= d2;
 			break;
 		}
