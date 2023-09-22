@@ -1,5 +1,13 @@
 #include "main.h"
 
+/**
+ * print_number - functions that prints int
+ *
+ * @n: number to be printed
+ *
+ * Return: void
+ */
+
 void print_number(int n)
 {
 	unsigned int num = n;

@@ -1,5 +1,13 @@
 #include "main.h"
 
+/**
+ * cap_string - converting to uppercase
+ *
+ * @str: the string
+ *
+ * Return: the address of str
+ */
+
 char *cap_string(char *str)
 {
 	int i;

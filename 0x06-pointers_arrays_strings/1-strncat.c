@@ -6,6 +6,7 @@
  *
  * @dest: string to be appended
  * @src: appending string
+ * @n: they number of bytes
  *
  * Return: function returns the address of dest
  */
@@ -21,7 +22,7 @@ char *_strncat(char *dest, char *src, int n)
 		destend++;
 	}
 
-	while (*src !='\0' && n > 0)
+	while (*src != '\0' && n > 0)
 	{
 		*destend = *src;
 		destend++;
