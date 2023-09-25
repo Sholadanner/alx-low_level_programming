@@ -1,43 +1,23 @@
 #include "main.h"
 
-char *leet(char *str)
+char *leet(char *n)
 {
-	char *original;
+        char i[] = "aAeEoOtTlL";
+        char j[] = "4433007711";
+        int s;
 
-	original = str;
+        for (s = 0; n[s] != '\0'; s++)
+        {
+                int x = 0;
 
-	while (*str != '\0')
-	{
-		if ((*str == 'a' || *str == 'A')
-				(*str == 'e' || *str == 'E')
-				(*str == 'o' || *str == 'O')
-				(*str == 't' || *str == 'T')
-				(*str == 'l' || *str == 'L'))
-		{
-			switch (*str)
-			{
-				case 'a':
-				case 'A':
-				*str = '4';
-				break;
-				case 'e';
-				case 'E';
-				*str = '3';
-				break;
-				case 'o';
-				case 'O';
-				*str = '0';
-				break;
-				case 't';
-				case 'T';
-				*str = '7';
-				break;
-				case 'l';
-				case 'L';
-				break;
-			}
-		}
-		str++;
-	}
-	return (original);
+                while (i[x] != '\0')
+                {
+                        if (n[s] == i[x])
+                        {
+                                n[s] = j[x];
+                        }
+                        x++;
+                }
+        }
+        return (n);
 }
