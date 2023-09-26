@@ -6,7 +6,7 @@
  * @s: the sting to search for the prefix
  * @accept: string that contains the charachertes to be
  * looked for
- * 
+ *
  * Return: the lenght of the prefix
  */
 
