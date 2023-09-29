@@ -16,7 +16,7 @@ int _sqrt_recursion(int n)
 }
 
 /**
- * actual_sqrt_recursion - recourse to find the natural 
+ * actual_sqrt_recursion - recourse to find the natural
  * square roots of numbers
  * @n: number whose square toot is to be determined
  * @i: iterator
