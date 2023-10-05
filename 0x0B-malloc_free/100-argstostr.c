@@ -6,7 +6,7 @@
  * argstostr - function which concatenates all the arguments
  * of a program
  * @ac: argument count
- * @ac: arguments to be concatenated
+ * @av: arguments to be concatenated
  * Return: to be determined
  */
 
@@ -30,7 +30,7 @@ char *argstostr(int ac, char **av)
 	}
 	str = malloc((sizeof(char) * vh) + ac + 1);
 
-	i =0;
+	i = 0;
 	while (av[i])
 	{
 		while (av[i][j])
