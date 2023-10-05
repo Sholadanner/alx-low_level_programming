@@ -12,7 +12,7 @@
 
 char *argstostr(int ac, char **av)
 {
-	int vh, i, j, k, l;
+	int vh = 0, i = 0, j = 0, k = 0;
 	char *str;
 
 	if (ac == 0 || av == NULL)
@@ -46,6 +46,6 @@ char *argstostr(int ac, char **av)
 		i++;
 	}
 	k++;
-	s[k] = '\0';
+	str[k] = '\0';
 	return (str);
 }
