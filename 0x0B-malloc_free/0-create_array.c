@@ -1,0 +1,25 @@
+#include "main.h"
+
+/**
+ * create_array - creates an array of characters
+ * @size: the size needed for the array
+ * @c: the charater that makes up the array
+ * Return: to be determined
+ */
+
+char *create_array(unsigned int size, char c)
+{
+	int i;
+	char *array;
+
+	if (size == 0)
+		return (NULL);
+
+	array = malloc(sizeof(char) * size);
+
+	if (array == NULL)
+		return (NULL);
+	for (i = 0; i < size; i++)
+		array[i] = c;
+	return (arr);
+}
