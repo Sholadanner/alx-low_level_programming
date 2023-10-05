@@ -6,7 +6,7 @@
  * alloc_grid - function that retrns a pointer to an
  * array
  * @width: number of columns
- * @hight: number of rows
+ * @height: number of rows
  * Return: to be determined
  */
 
@@ -25,7 +25,7 @@ int **alloc_grid(int width, int height)
 
 	for (i = 0; i < height; i++)
 	{
-		output[i] = malloc(sizeof(int *) * width);
+		output[i] = malloc(sizeof(int ) * width);
 
 		if (output[i] == NULL)
 		{
