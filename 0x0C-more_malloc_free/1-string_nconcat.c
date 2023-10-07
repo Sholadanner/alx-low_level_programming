@@ -4,8 +4,13 @@
 
 /**
  * string_nconcat - function that concatenates two strings
+ *
  * @s1: first string to be concatenated
+ *
  * @s2: second string to be concatenated
+ *
+ * @n: number of bytes of the second string should be copied
+ *
  * Return: a pointer to the allocated memory for the
  * concatenation if successful, if unsuccessful, the
  * return value will be NULL and if NULL is passed to
