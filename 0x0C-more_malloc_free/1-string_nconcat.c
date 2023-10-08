@@ -2,12 +2,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * string_nconcat - function that concatenats two strings
+ * @s1: first string to be concatenated
+ * @s2: second string to be concatenated
+ * @n: the  number of bytes of the second string that should
+ * be concatenated
+ * Return: the be determined
+ */
+
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	unsigned int j;
-	unsigned int i;
-	unsigned int strlen1 = 0;
-	unsigned int strlen2 = 0;
+	int i;
+	int strlen1 = 0;
+	int strlen2 = 0;
 	char *cat;
 
 	if (s1 == NULL || s2 == NULL)
