@@ -28,8 +28,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		return (NULL);
 	for (i = 0; i < strlen1; i++)
 		cat[i] = s1[i];
-	for (j = 0; j < n && s2[j] != '\0'; j++)
+	for (j = 0; j < n; j++)
 		cat[strlen1 + j] = s2[j];
-	cat[strlen1 + n] = '\0';
+	cat[strlen1 + j] = '\0';
 	return (cat);
 }
