@@ -4,8 +4,8 @@
  * array_iterator - performing an action on each iteration
  * of an array
  * @array: the array to which the action is to be performed on
- * @size_t: the size of the array
- * action: the pointer to the action that will be carried out
+ * @size: the size of the array
+ * @action: the pointer to the action that will be carried out
  * on each iteration of the array
  * Return: void
  */
