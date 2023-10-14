@@ -33,15 +33,16 @@ void print_all(const char * const format, ...)
 				printf("%s%f", separator, va_arg(arg, double));
 				break;
 			case 's':
-				{
 					str = va_arg(arg, char*);
 
 					if (str == NULL)
 						printf("%s(nil)", separator);
 					if (str != NULL)
 						printf("%s%s", separator, str);
-				}
-				break;
+					break;
+defult:
+					printed++;
+					continue;
 		}
 		separator = ", ";
 		printed++;
