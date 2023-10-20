@@ -20,15 +20,15 @@ list_t *add_node_end(list_t **head, const char *str)
 		node_count++;
 	node->len = node_count;
 	node->next = NULL;
-	tmp = *head;
+	top = *head;
 
-	if (tmp == NULL)
+	if (top == NULL)
 		*head = node;
 	else
 	{
-		while (tmp->next != NULL)
-			tmp = tmp->next;
-		tmp->next = node;
+		while (top->next != NULL)
+			top = top->next;
+		top->next = node;
 	}
 	return (*head);
 }
