@@ -1,10 +1,10 @@
 #include "lists.h"
 
- /**
-  * free_listint2 - frees a list link
-  * @head: pointer to a pointer of the head link
-  * Return: void
-  */
+/**
+ * free_listint2 - frees a list
+ * @head: pointer to pointer of head
+ * Return: void
+ */
 
 void free_listint2(listint_t **head)
 {
@@ -12,9 +12,9 @@ void free_listint2(listint_t **head)
 
 	while (*head != NULL)
 	{
-		current = *head;
-		*head = (*head)->next;
+		current = (*head)->next;
 		free(current);
+		*head = current;
 	}
 	*head = NULL;
 }
