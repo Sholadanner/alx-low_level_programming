@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * clear_bit - prototype that sets the value of a bit
- * @n: number of set
- * @index: index of the number
+ * clear_bit - function to clear bits
+ * @n: number
+ * @index: index
+ * Return: to be determined
  */
 
 int clear_bit(unsigned long int *n, unsigned int index)
