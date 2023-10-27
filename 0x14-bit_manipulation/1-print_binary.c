@@ -30,7 +30,7 @@ void print_binary(unsigned long int n)
 	unsigned long int div, check;
 	char flag;
 
-	floag = 0;
+	flag = 0;
 
 	div = _power(2, sizeof(unsigned long int) *8 - 1);
 
